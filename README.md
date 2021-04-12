@@ -72,14 +72,20 @@ The server will open on the port 3003 - http://localhost:3003
 <a id="libs"></a>
 ## 🛠	Libraries and Frameworks:
 
-- knex
-- node.js
 - cors
+- knex
 - mysql
 - dotenv
 - express
+- node.js
 - typescript
 
+## Softwares:
+
+- MySQL Workbench
+- Postman
+- vsCode
+- Git
 
 Thank you for your visit and good coding! :shipit:
 
@@ -158,13 +164,20 @@ O servidor será aberto na porta 3003 - http://localhost:3003
 <a id="bibliotecas"></a>
 ## 🛠	Bibliotecas e Frameworks:
 
-- knex
-- node.js
 - cors
+- knex
 - mysql
 - dotenv
 - express
+- node.js
 - typescript
+
+## Softwares:
+
+- MySQL Workbench
+- Postman
+- vsCode
+- Git
 
 Obrigada pela visita e boa codificação! :shipit:
 
