@@ -3,7 +3,7 @@
 <a id="en-readme"></a>
 ### English | [Português](#pt-readme)
 Back-end project developed in Labenu's bootcamp. \
-To do List is a REST API to create and organize a to-do list alone or with a group of people ~~or with your dog~~! ✏️
+To do List is a REST API to create and organize to do lists alone or with a group of people ~~or with your dog ~~! ✏️
 
 <a name="en-menu"></a>
 - [Documentation](#documentacao)
@@ -82,7 +82,7 @@ Thank you for your visit and good coding! :shipit:
 <a id="pt-readme"></a>
 ### [English](#en-readme) | Português
 Projeto back-end desenvolvido no bootcamp da Labenu. \
-To do List é uma API REST para criar e organizar uma lista de tarefas sozinho ou com um grupo de pessoas ~~ ou com seu cachorro ~~!
+To do List é uma API REST para criar e organizar listas de tarefas sozinho ou com um grupo de pessoas ~~ou com seu cachorro ~~! ✏️
 
 <a name="pt-menu"></a>
 - [Documentação](#documentacao)
@@ -135,7 +135,7 @@ npm run setup
 ```
 npm start
 ```
-O servidor será aberto na porta 3003 - http://localhost: 3003
+O servidor será aberto na porta 3003 - http://localhost:3003
 
 <a id="pt-scripts"></a>
 ## :spades:	Scripts Disponíveis:
