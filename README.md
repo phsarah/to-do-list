@@ -82,7 +82,7 @@ Thank you for your visit and good coding! :shipit:
 <a id="pt-readme"></a>
 ### [English](#en-readme) | Português
 Projeto back-end desenvolvido no bootcamp da Labenu. \
-To do List é uma API REST para criar e organizar listas de tarefas sozinho ou com um grupo de pessoas ~~ou com seu cachorro ~~! ✏️
+To do List é uma API REST para criar e organizar listas de tarefas sozinho ou com um grupo de pessoas ~~ou com seu cachorro~~! ✏️
 
 <a name="pt-menu"></a>
 - [Documentação](#documentacao)
