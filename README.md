@@ -73,7 +73,7 @@ The server will open on the port 3003 - http://localhost:3003
 ## 🛠	Libraries and Frameworks:
 
 - knex
-- node
+- node.js
 - cors
 - mysql
 - dotenv
@@ -159,7 +159,7 @@ O servidor será aberto na porta 3003 - http://localhost:3003
 ## 🛠	Bibliotecas e Frameworks:
 
 - knex
-- node
+- node.js
 - cors
 - mysql
 - dotenv
