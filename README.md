@@ -15,7 +15,7 @@ To-do List is a REST API to create and organize to-do lists alone or with a grou
 
 <a id="documentation"></a>
 ## 📙 Documentation
-[Here]() <br/> made by the Postman. 🍊
+[Here]() <br/> Made by the Postman. 🍊
 
 <a id="steps"></a>
 ## :rocket: Getting Started
@@ -87,6 +87,8 @@ The server will open on the port 3003 - http://localhost:3003
 - vsCode
 - Git
 
+<br/>
+
 Thank you for your visit and good coding! :shipit:
 
 *Developed with :sparkling_heart:	 by Sarah Hessel*
@@ -107,7 +109,7 @@ To-do List é uma API REST para criar e organizar listas de tarefas sozinho ou c
 
 <a id="documentacao"></a>
 ## 📙	Documentação
-[Aqui]() <br/> criado pelo Postman. 🍊
+[Aqui]() <br/> Criado pelo Postman. 🍊
 
 <a id="passos"></a>
 ## :rocket:	Primeiros Passos
@@ -178,6 +180,8 @@ O servidor será aberto na porta 3003 - http://localhost:3003
 - Postman
 - vsCode
 - Git
+
+<br/>
 
 Obrigada pela visita e boa codificação! :shipit:
 
