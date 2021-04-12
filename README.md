@@ -3,7 +3,7 @@
 <a id="en-readme"></a>
 ### English | [Português](#pt-readme)
 Back-end project developed in Labenu's bootcamp. \
-To do List is a REST API to create and organize to do lists alone or with a group of people ~~or with your dog ~~! ✏️
+To do List is a REST API to create and organize to do lists alone or with a group of people ~~or with your dog~~! ✏️
 
 <a name="en-menu"></a>
 - [Documentation](#documentacao)
