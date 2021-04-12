@@ -80,7 +80,7 @@ The server will open on the port 3003 - http://localhost:3003
 - node.js
 - typescript
 
-## Softwares:
+## 💻 Softwares:
 
 - MySQL Workbench
 - Postman
@@ -172,7 +172,7 @@ O servidor será aberto na porta 3003 - http://localhost:3003
 - node.js
 - typescript
 
-## Softwares:
+## 💻 Softwares:
 
 - MySQL Workbench
 - Postman
