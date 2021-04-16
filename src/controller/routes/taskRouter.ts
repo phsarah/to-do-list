@@ -1,8 +1,8 @@
 import express from "express";
 import { TaskController } from "../TaskController";
 
-export const userRouter = express.Router();
+export const taskRouter = express.Router();
 
 const taskController = new TaskController();
 
-userRouter.put("/task", taskController.createTask);
+taskRouter.put("/create", taskController.createTask);

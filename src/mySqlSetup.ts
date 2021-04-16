@@ -1,18 +1,20 @@
-import BaseDataBase from '../src/data/BaseDatabase'
+import BaseDatabase from './data/BaseDatabase'
 
-export class MySqlSetup extends BaseDataBase{
+export class MySqlSetup extends BaseDatabase{
     public async createTable(): Promise<void>{
         try{
-           await BaseDataBase.connection.raw(`
-            CREATE TABLE TodoListUser (
+           await BaseDatabase.connection.raw(`
+            CREATE TABLE TodoListUser 
+            (
                 id VARCHAR(255) PRIMARY KEY, 
                 name VARCHAR(255) NULL, 
                 nickname VARCHAR(255) UNIQUE NOT NULL, 
                 email VARCHAR(255) UNIQUE NOT NULL
-            );`)
+            )`)
 
-            await BaseDataBase.connection.raw(`
-            CREATE TABLE TodoListTask (
+            await BaseDatabase.connection.raw(`
+            CREATE TABLE TodoListTask 
+            (
                 id VARCHAR(255) PRIMARY KEY, 
                 title VARCHAR(255) NOT NULL, 
                 description TEXT NOT NULL, 
@@ -22,8 +24,9 @@ export class MySqlSetup extends BaseDataBase{
                 FOREIGN KEY (creator_user_id) REFERENCES TodoListUser(id)
             )`)
 
-            await BaseDataBase.connection.raw(`
-            CREATE TABLE TodoListResponsibleUserTaskRelation (
+            await BaseDatabase.connection.raw(`
+            CREATE TABLE TodoListResponsibleUserTaskRelation 
+            (
                 task_id VARCHAR(255),
                 responsible_user_id VARCHAR(255),
                 FOREIGN KEY (task_id) REFERENCES TodoListTask(id),
@@ -35,7 +38,8 @@ export class MySqlSetup extends BaseDataBase{
         catch(e){
             throw new Error(e.sqlMessage || e.message)
         }
-        
     }
 }
-new MySqlSetup().createTable()
+const sql = new MySqlSetup()
+
+sql.createTable()

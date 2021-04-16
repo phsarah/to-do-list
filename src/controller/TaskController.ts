@@ -22,6 +22,7 @@ export class TaskController {
             limitDate: req.body.limitDate,
             creatorUserId: req.body.creatorUserId,
         }
+        await taskBusiness.createTask(input)
 
         res.status(200).send("Tarefa adicionada!")
 

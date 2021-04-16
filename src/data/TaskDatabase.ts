@@ -1,13 +1,13 @@
 import { TaskInputDTO } from "../business/entities/Task";
-import BaseDataBase from "./BaseDatabase";
+import BaseDatabase from "./BaseDatabase";
 
-export class TaskDatabase extends BaseDataBase{
+export class TaskDatabase extends BaseDatabase{
     
     private static TABLE_NAME = "TodoListTask"
 
     public async createTask(id: string, Task: TaskInputDTO, convertedDate: Date){
         try{
-            await BaseDataBase.connection
+            await BaseDatabase.connection
             .insert({ 
                 id: id,
                 title: Task.title,

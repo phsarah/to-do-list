@@ -1,7 +1,7 @@
 import { UserInputDTO } from "../business/entities/User";
-import BaseDataBase from "./BaseDatabase";
+import BaseDatabase from "./BaseDatabase";
 
-export class UserDatabase extends BaseDataBase{
+export class UserDatabase extends BaseDatabase{
 
     private static TABLE_NAME = "TodoListUser"
 
@@ -10,7 +10,7 @@ export class UserDatabase extends BaseDataBase{
         user: UserInputDTO
     ): Promise<any>{
         try{
-            await BaseDataBase.connection
+            await BaseDatabase.connection
                 .insert({
                     id: id,   
                     name: user.name,
@@ -26,7 +26,7 @@ export class UserDatabase extends BaseDataBase{
 
     public async getUserById(id: string): Promise<any>{
         try{
-        const result = await BaseDataBase.connection.raw(`
+        const result = await BaseDatabase.connection.raw(`
             SELECT id, nickname FROM '${UserDatabase.TABLE_NAME}' 
             WHERE id = '${id}'
         `)
@@ -40,7 +40,7 @@ export class UserDatabase extends BaseDataBase{
     public async editUserById(id: string, name: string, nickname: string): Promise<any>{
 
         try{
-           const result = await BaseDataBase.connection.raw(`
+           const result = await BaseDatabase.connection.raw(`
                 UPDATE '${UserDatabase.TABLE_NAME}'
                 SET name = '${name}', nickname = '${nickname}'     
                 WHERE id = '${id}'
