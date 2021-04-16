@@ -5,7 +5,7 @@ export const userRouter = express.Router();
 
 const userController = new UserController();
 
-userRouter.post("/user/create", userController.signup);
-userRouter.get("/user/:id", userController.getUserById);
-userRouter.post('/user/edit/:id', userController.editUserById);
+userRouter.post("/create", userController.signup);
+userRouter.get("/:id", userController.getUserById);
+userRouter.post('/edit/:id', userController.editUserById);
 

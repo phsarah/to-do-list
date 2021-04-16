@@ -38,7 +38,7 @@
   },
   "scripts": {
     "test": "clear && echo \"Running tests...\" && jest",
-    "start": "tsc && node --inspect ./build/index.js",
+    "start": "tsc && node --inspect ./build/src/index.js",
     "dev": " ts-node-dev ./src/index.ts",
     "setup": "tsc && node ./build/src/mySqlSetup.js"
   },
