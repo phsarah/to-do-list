@@ -109,7 +109,7 @@ To-do List é uma API REST para criar e organizar listas de tarefas sozinho ou c
 
 <a id="documentacao"></a>
 ## 📙	Documentação
-[Aqui]() <br/> Criado pelo Postman. 🍊
+Postman - [Aqui]() 
 
 <a id="passos"></a>
 ## :rocket:	Primeiros Passos
