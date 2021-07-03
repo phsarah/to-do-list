@@ -15,7 +15,7 @@ To-do List is a REST API to create and organize to-do lists alone or with a grou
 
 <a id="documentation"></a>
 ## 📙 Documentation
-[Here]() <br/> Made by the Postman. 🍊
+[Here]() - Postman 🍊
 
 <a id="steps"></a>
 ## :rocket: Getting Started
